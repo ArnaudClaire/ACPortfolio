@@ -1,24 +1,21 @@
 
-<nav class="bg-blue-50 opacity-80">
-    <div class="container w-full flex flex-row h-20 items-center justify-center">
-  
-
-  
- 
-        <ul class="flex rounded-lg flex-row space-x-8 mt-0 text-sm font-medium border-0 float-right">
-          <li>
-            <a routerLink="/salesman"
-              class="block py-2 pl-3 pr-4  rounded hover:bg-transparent border-0 hover:text-blue-700 p-0 dark:text-gray-400  dark:hover:bg-gray-700  dark:hover:bg-transparent">home</a>
-          </li>
-          <li>
-            <a routerLink="/teleprospector"
-              class="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 hover:bg-transparent border-0 hover:text-blue-700 p-0 dark:text-gray-400  dark:hover:bg-gray-700  dark:hover:bg-transparent">Telepro</a>
-          </li>
-          <li>
-            <a routerLink="/gifSpeed"
-              class="block py-2 pl-3 pr-4  rounded hover:bg-gray-100 hover:bg-transparent border-0 hover:text-blue-700 p-0 dark:text-gray-400  dark:hover:bg-gray-700  dark:hover:bg-transparent">Voiture</a>
-          </li>
-        </ul>
-      </div>
-
-  </nav>
+<nav class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ... opacity-80">
+    <div class="w-full h-20 items-center justify-around flex text-center rounded-lg flex-row space-x-8 mt-0 font-medium border-0 text-xl">
+        <div>
+            <a routerLink="/" routerLinkActive="animate-bounce" [routerLinkActiveOptions]="{ exact: true }"
+            class="block rounded hover:bg-transparent border-0 hover:text-blue-700   text-white  dark:hover:bg-gray-700  dark:hover:bg-transparent uppercase">ACCEUIL</a>
+        </div>
+        <div>
+            <a routerLink="/real" routerLinkActive="animate-bounce" [routerLinkActiveOptions]="{ exact: true }"
+            class="block rounded hover:bg-transparent border-0 hover:text-blue-700   text-white  dark:hover:bg-gray-700  dark:hover:bg-transparent uppercase">Réalisations</a>
+        </div>
+        <div>
+            <a routerLink="/comp" routerLinkActive="animate-bounce" [routerLinkActiveOptions]="{ exact: true }"
+            class="block rounded hover:bg-transparent border-0 hover:text-blue-700 text-white  dark:hover:bg-gray-700  dark:hover:bg-transparent uppercase">Compétence</a>
+        </div>
+        <div>
+            <a routerLink="/formation" routerLinkActive="animate-bounce" [routerLinkActiveOptions]="{ exact: true }"
+            class="block rounded hover:bg-transparent border-0 hover:text-blue-700 text-white  dark:hover:bg-gray-700  dark:hover:bg-transparent uppercase">Formation</a>
+        </div>
+    </div>
+</nav>
