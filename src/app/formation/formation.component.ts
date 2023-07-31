@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class FormationComponent {
 
+  adBDD:boolean = false;
+  devAPI:boolean = false;
+  desktop:boolean= false;
+  devMOBILE:boolean= false;
+  management:boolean= false;
+  NoSql:boolean= false;
+  devWEB:boolean= false;
+  free:boolean= false;
+  CoAdv:boolean= false;
+  meduza:boolean= false;
+  masterClass:boolean= false;
 }
