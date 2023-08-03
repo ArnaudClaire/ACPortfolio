@@ -10,6 +10,7 @@ export class FormationComponent {
   adBDD:boolean = false;
   devAPI:boolean = false;
   desktop:boolean= false;
+  devOps:boolean= false;
   devMOBILE:boolean= false;
   management:boolean= false;
   NoSql:boolean= false;
