@@ -32,6 +32,11 @@
                 "glob": "pdf-3.8.577-es5.min.js",
                 "input": "src/assets/",
                 "output": "/assets/"
+              },
+              {
+                "glob": "**/*",
+                "input": "src/assets/pwa",
+                "output": "'assets'" 
               }
             ],
             "styles": [

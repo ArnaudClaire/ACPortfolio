@@ -1,5 +1,5 @@
 
-<nav class="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ... opacity-80">
+<nav class="hidden lg:block bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ... opacity-80">
     <div class="w-full h-20 items-center justify-around flex text-center rounded-lg flex-row space-x-8 mt-0 font-medium border-0 text-xl">
         <div>
             <a routerLink="/" routerLinkActive="animate-bounce" [routerLinkActiveOptions]="{ exact: true }"
@@ -15,6 +15,24 @@
         </div>
         <div>
             <a routerLink="/comp" routerLinkActive="animate-bounce" [routerLinkActiveOptions]="{ exact: true }"
+            class="block rounded hover:bg-transparent border-0 hover:text-blue-700 text-white  dark:hover:bg-gray-700  dark:hover:bg-transparent uppercase">Compétences</a>
+        </div>
+    </div>
+</nav>
+
+
+<nav class="pb-2 pt-2 block lg:hidden bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% ... opacity-80">
+    <div class="w-full h-20 items-center justify-around flex flex-col text-center rounded-lg  mt-0 font-medium border-0 text-xl">
+        <div>
+            <a routerLink="/" routerLinkActive="animate-wiggle text-blue-700" [routerLinkActiveOptions]="{ exact: true }"
+            class="block rounded hover:bg-transparent border-0 hover:text-blue-700   text-white  dark:hover:bg-gray-700  dark:hover:bg-transparent uppercase">ACCUEIL</a>
+        </div>
+        <div>
+            <a routerLink="/formation" routerLinkActive="animate-wiggle text-blue-700" [routerLinkActiveOptions]="{ exact: true }"
+            class="block rounded hover:bg-transparent border-0 hover:text-blue-700 text-white  dark:hover:bg-gray-700  dark:hover:bg-transparent uppercase">Formations</a>
+        </div>
+        <div>
+            <a routerLink="/comp" routerLinkActive="animate-wiggle text-blue-700" [routerLinkActiveOptions]="{ exact: true }"
             class="block rounded hover:bg-transparent border-0 hover:text-blue-700 text-white  dark:hover:bg-gray-700  dark:hover:bg-transparent uppercase">Compétences</a>
         </div>
     </div>
