@@ -10,6 +10,8 @@ import { RealisationsComponent } from './realisations/realisations.component';
 import { CompetencesComponent } from './competences/competences.component';
 import { FormationComponent } from './formation/formation.component';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+import { Title } from '@angular/platform-browser';
+
 
 @NgModule({
   declarations: [
